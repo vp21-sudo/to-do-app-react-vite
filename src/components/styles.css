@@ -1,0 +1,31 @@
+.task-main {
+    display: flex;
+    border: 0.5vh solid cadetblue;
+    flex-direction: row;
+    margin-top: 2vh;
+    border-radius: 5vh;
+}
+
+.task-title {
+    color: darkblue;
+    margin-left: 5vh;
+    width: 50vh;
+}
+
+.task-checkbox {
+    margin: auto;
+    width: 4vh;
+    height: 4vh;
+}
+
+.task-checkbox:hover {
+    cursor: pointer;
+}
+
+.delete-btn {
+    margin: auto;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
